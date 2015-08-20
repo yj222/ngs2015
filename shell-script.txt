@@ -2,9 +2,9 @@ sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get -y install build-essential tmux git gcc make g++ python-dev unzip default-jre libcurl4-openssl-dev zlib1g-dev python-pip fastqc samtools bowtie ncbi-blast+ hmmer emboss
 
-sudo mkfs -t ext4 /dev/xvdb
-sudo mount /dev/xvdb /mnt
-sudo chown -R ubuntu:ubuntu /mnt
+#sudo mkfs -t ext4 /dev/xvdb
+#sudo mount /dev/xvdb /mnt
+#sudo chown -R ubuntu:ubuntu /mnt
 df -h
 git clone https://github.com/trinityrnaseq/trinityrnaseq.git
 cd trinityrnaseq
